@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
 	<title>综合</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
 			<td rowspan="7">
                 导航
                 <ul>
-                    <li><a href="">登录</a></li>
+                    <li><a class="login" href="">登录</a></li>
                     <li><a href="">注册新用户</a></li>
                 </ul>
             </td>
@@ -37,19 +38,19 @@
         </tr>
         <tr>
             <td>性别：</td>
-            <td>
+            <th>
                 <label><input type="radio" name="sex" value="male">男
                 <label><input type="radio" name="sex" value="female">女</label></label>
             </td>
             <td>爱好：</td>
-            <td>
+            <th>
                 <label><input type="checkbox" name="interest" value="reading">读书</label>
                 <label><input type="checkbox" name="interest" value="film">看电影</label>
             </td>
         </tr>
         <tr>
             <td>证件类型</td>
-            <td>
+            <th>
                 <form action="">
                     <select name="cars">
                         <option value="volvo">身份证</option>
